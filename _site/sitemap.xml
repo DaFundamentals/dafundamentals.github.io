@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://localhost:4000/samplepost.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/myupdate.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/test-post-from-last-year.html</loc>
+  </url>
+  
+  
+
+
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/about.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/data_abstraction.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/encapsulation.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/faq.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_posts.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_scroll.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/js/mydoc_scroll.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_search_configuration.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_shuffle.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/documentation_sidebar_navigation.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_tags.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_themes.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/mydoc_yaml_tutorial.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/news.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/news_archive.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/support.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/feed.xslt.xml</loc>
+  </url>
+  
+  
+</urlset>

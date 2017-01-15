@@ -1,0 +1,31 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web
+    - title: About the author
+      url: /about.html
+      output: web
+    - title: FAQs
+      url: /faq.html
+      output: web
+    - title: Support
+      url: /support.html
+      output: web
+  - title: Object Oriented Programming
+    output: web
+    folderitems:
+    - title: Encapsulation
+      url: /encapsulation.html
+      output: web
+    - title: Data Abstraction
+      url: /data_abstraction.html
+      output: web
