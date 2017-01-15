@@ -121,7 +121,7 @@
 
 
 
-  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:dafundamental1@gmail.com?subject=Jekyll documentation theme feedback&body=I have some feedback about the Encapsulation page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:dafundamental1@gmail.com?subject=Da Fundamentals feedback&body=I have some feedback about the Encapsulation page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
 
 <li>
 
@@ -267,14 +267,13 @@
     
 
   <h2 id="common-uses">Common uses</h2>
-
 <p>Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page.</p>
 
 <p>While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.</p>
 
 <p>Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.</p>
 
-<h2 id="examples">Examples</h2>
+<h2 id="code-examples">Code Examples</h2>
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Ruby</a></li>
@@ -282,30 +281,77 @@
     <li><a class="noCrossRef" href="#python" data-toggle="tab">Python</a></li>
 </ul>
 <div class="tab-content">
-<div role="tabpanel" class="tab-pane active" id="profile">
+<div role="tabpanel" class="tab-pane active" id="ruby">
 
-    <h2 id="ruby">Ruby</h2>
-    <p>Ruby Stuff</p>
+    <pre>
+    <code>
+      class Document
+        attr_accessor :name
+
+        def initialize(name)
+          @name = name
+        end
+
+        def set_name(name)
+          @name = name
+        end
+      end
+    </code>
+  </pre>
   </div>
 
   <div role="tabpanel" class="tab-pane" id="java">
-      <h2>Java</h2>
-      <p>
-        Java Stuff
-      </p>
+    <pre>
+      <code>
+      public class EncapTest {
+       private String name;
+       private String idNum;
+       private int age;
+
+       public int getAge() {
+          return age;
+       }
+
+       public String getName() {
+          return name;
+       }
+
+       public String getIdNum() {
+          return idNum;
+       }
+
+       public void setAge( int newAge) {
+          age = newAge;
+       }
+
+       public void setName(String newName) {
+          name = newName;
+       }
+
+       public void setIdNum( String newId) {
+          idNum = newId;
+       }
+      }
+      </code>
+    </pre>
   </div>
 
   <div role="tabpanel" class="tab-pane" id="python">
-      <h2>Python</h2>
-      <p>
-        Python Stuff
-      </p>
+    <pre>
+      <code>
+      class Car:
+        def __init__(self):
+            self.__updateSoftware()
+
+        def drive(self):
+            print 'driving'
+
+        def __updateSoftware(self):
+            print 'updating software'
+      </code>
+    </pre>
   </div>
 </div>
-
-<h2 id="design-constraints">Design constraints</h2>
-
-<p>Bootstrap automatically clears any floats after the navtab. Make sure you aren’t trying to float any element to the right of your navtabs, or there will be some awkward space in your layout.</p>
 
 
     <div class="tags">
@@ -313,6 +359,8 @@
         <b>Tags: </b>
         
         
+        
+        <a href="tag_oop.html" class="btn btn-default navbar-btn cursorNorm" role="button">oop</a>
         
         
         
@@ -328,7 +376,7 @@
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2017 Ben Stew. All rights reserved. <br />
-<span>Page last updated:</span> January 14, 2016<br/> Site last generated: Jan 14, 2017 <br />
+<span>Page last updated:</span> January 14, 2016<br/> Site last generated: Jan 15, 2017 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>

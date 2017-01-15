@@ -61,105 +61,6 @@
 
 
 {
-"title": "Posts",
-"tags": "getting_startedformattingcontent_types",
-"keywords": "posts, blog, news, authoring, exclusion, frontmatter",
-"url": "mydoc_posts.html",
-"summary": "You can use posts when you want to create blogs or news type of content."
-}
-,
-
-
-
-{
-"title": "Scroll layout",
-"tags": "special_layouts",
-"keywords": "json, scrolling, scrollto, jquery plugin",
-"url": "mydoc_scroll.html",
-"summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
-}
-,
-
-
-
-{
-"title": "Scroll layout",
-"tags": "special_layouts",
-"keywords": "json, scrolling, scrollto, jquery plugin",
-"url": "jsmydoc_scroll.html",
-"summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
-}
-,
-
-
-
-{
-"title": "Search configuration",
-"tags": "publishingnavigation",
-"keywords": "search, json, configuration, findability",
-"url": "mydoc_search_configuration.html",
-"summary": "The search feature uses JavaScript to look for keyword matches in a JSON file. The results show instant matches, but it doesn't provide a search results page like Google. Also, sometimes invalid formatting can break the JSON file."
-}
-,
-
-
-
-{
-"title": "Shuffle layout",
-"tags": "special_layouts",
-"keywords": "shuffle, card layout, dynamic grid, doc portal, support portal",
-"url": "mydoc_shuffle.html",
-"summary": "This layout shows an example of a knowledge-base style navigation system, where there is no hierarchy, just groups of pages that have certain tags."
-}
-,
-
-
-
-{
-"title": "Sidebar Navigation",
-"tags": "getting_started",
-"keywords": "sidebar, accordion, yaml, iteration, for loop, navigation, attributes, conditional filtering",
-"url": "documentation_sidebar_navigation.html",
-"summary": "The sidebar navigation uses a jQuery component called Navgoco. The sidebar is a somewhat complex part of the theme that remembers your current page, highlights the active item, stays in a fixed position on the page, and more. This page explains a bit about how the sidebar was put together."
-}
-,
-
-
-
-{
-"title": "Tags",
-"tags": "navigation",
-"keywords": "tags, navigation, buttons, links, association",
-"url": "mydoc_tags.html",
-"summary": "Tags provide another means of navigation for your content. Unlike the table of contents, tags can show the content in a variety of arrangements and groupings. Implementing tags in this Jekyll theme is somewhat of a manual process."
-}
-,
-
-
-
-{
-"title": "Themes",
-"tags": "publishing",
-"keywords": "themes, styles, colors, css",
-"url": "mydoc_themes.html",
-"summary": "You can choose between two different themes (one green, the other blue) for your projects. The theme CSS is stored in the CSS folder and configured in the configuration file for each project."
-}
-,
-
-
-
-{
-"title": "YAML tutorial in the context of Jekyll",
-"tags": "formatting",
-"keywords": "search",
-"url": "mydoc_yaml_tutorial.html",
-"summary": "YAML is a format that relies on white spacing to separate out the various elements of content. Jekyll lets you use Liquid with YAML as a way to parse through the data. Storing items for your table of contents is one of the most common uses of YAML with Jekyll."
-}
-,
-
-
-
-{
 "title": "News",
 "tags": "",
 "keywords": "news, blog, updates, release notes, announcements",
@@ -180,6 +81,17 @@
 ,
 
 
+
+
+
+{
+"title": "Search configuration",
+"tags": "publishingnavigation",
+"keywords": "search, json, configuration, findability",
+"url": "mydoc_search_configuration.html",
+"summary": "The search feature uses JavaScript to look for keyword matches in a JSON file. The results show instant matches, but it doesn't provide a search results page like Google. Also, sometimes invalid formatting can break the JSON file."
+}
+,
 
 
 
@@ -210,11 +122,33 @@
 
 
 
+{
+"title": "Object Oriented Programming",
+"tags": "",
+"keywords": "",
+"url": "tag_oop.html",
+"summary": ""
+}
+,
 
 
 
 
 
+
+
+
+
+
+
+{
+"title": "Template",
+"tags": "tag1",
+"keywords": "navigation tabs, hide sections, tabbers, interface tabs",
+"url": "template.html",
+"summary": "Brief Summary"
+}
+,
 
 
 

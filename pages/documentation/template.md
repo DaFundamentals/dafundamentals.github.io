@@ -1,20 +1,19 @@
 ---
-title:  Encapsulation
-tags: [oop]
+title:  Template
+tags: [tag1]
 keywords: navigation tabs, hide sections, tabbers, interface tabs
 last_updated: January 14, 2016
-summary: "Encapsulation"
+summary: "Brief Summary"
 sidebar: documentation_sidebar
-permalink: encapsulation.html
+permalink: template.html
 folder: documentation
 ---
 
-## Common uses
-Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page.
 
-While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.
+## Explanation
 
-Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 
 ## Code Examples
 
