@@ -5,7 +5,7 @@ keywords: questions, troubleshooting, contact, support
 last_updated: July 3, 2016
 summary: "Contact me for any support issues."
 sidebar: documentation_sidebar
-permalink: support.html
+permalink: getting_started_support.html
 folder: documentation
 ---
 

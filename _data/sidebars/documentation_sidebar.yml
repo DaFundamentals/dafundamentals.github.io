@@ -11,21 +11,24 @@ entries:
     - title: Introduction
       url: /index.html
       output: web
+    - title: How to Contribute
+      url: /getting_started_contribute.html
+      output: web
     - title: About the author
-      url: /about.html
+      url: /getting_started_about.html
       output: web
     - title: FAQs
-      url: /faq.html
+      url: /getting_started_faq.html
       output: web
     - title: Support
-      url: /support.html
+      url: /getting_started_support.html
       output: web
   - title: Object Oriented Programming
     output: web
     folderitems:
     - title: Encapsulation
-      url: /encapsulation.html
+      url: /oop_encapsulation.html
       output: web
-    - title: Data Abstraction
-      url: /data_abstraction.html
+    - title: Abstraction
+      url: /oop_abstraction.html
       output: web

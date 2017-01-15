@@ -1,16 +1,13 @@
 ---
-title:  Data Abstraction
+title: Abstraction
 tags: [oop]
 keywords: navigation tabs, hide sections, tabbers, interface tabs
 last_updated: January 14, 2016
 summary: "Data Abstraction"
 sidebar: documentation_sidebar
-permalink: data_abstraction.html
+permalink: oop_abstraction.html
 folder: documentation
 ---
-
-### Data Abstraction
-some words go here
 
 ## Functionality to implement
 

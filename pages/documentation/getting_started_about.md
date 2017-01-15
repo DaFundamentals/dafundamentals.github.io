@@ -5,7 +5,7 @@ last_updated: January 14, 2017
 tags: [getting_started]
 summary: "Lets change the world!"
 sidebar: documentation_sidebar
-permalink: about.html
+permalink: getting_started_about.html
 folder: documentation
 ---
 

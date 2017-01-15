@@ -3,18 +3,26 @@ title:  Encapsulation
 tags: [oop]
 keywords: navigation tabs, hide sections, tabbers, interface tabs
 last_updated: January 14, 2016
-summary: "Encapsulation"
+summary: "Grouping data (variables) and code acting on the data (methods/functions) as a single object or unit."
 sidebar: documentation_sidebar
-permalink: encapsulation.html
+permalink: oop_encapsulation.html
 folder: documentation
 ---
 
-## Common uses
-Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page.
+**Encapsulation** makes it possible to separate an objects implementation from its behavior to restrict access to its internal data. This restriction allows certain details of an objects behavior to be hidden. It allows us to create a “black box” and protects an objects internal state from corruption by its clients.
 
-While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.
+Rather then having a bike with all its pieces scattered, we are grouping everything together in one class.
 
-Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.
+**Advantages:**
+
+* Makes it easy to model real-world entities
+* Controls the way data is accessed or modified
+* Easier maintainability
+* Flexible
+* Reusable
+* Reduces coupling of modules and increase cohesion inside a module because all piece of one thing are encapsulated in one place.
+
+----------
 
 ## Code Examples
 
@@ -28,15 +36,20 @@ Navtabs are better for SEO since you avoid duplicate content and drive users to 
 
   <pre>
     <code>
-      class Document
-        attr_accessor :name
+      class Person
+        attr_reader :name, :age
 
-        def initialize(name)
+        def initialize(name, age)
           @name = name
+          @age = age
         end
 
         def set_name(name)
           @name = name
+        end
+
+        def set_age(age)
+          @age = age
         end
       end
     </code>
@@ -46,9 +59,8 @@ Navtabs are better for SEO since you avoid duplicate content and drive users to 
   <div role="tabpanel" class="tab-pane" id="java">
     <pre>
       <code>
-      public class EncapTest {
+      public class Person {
        private String name;
-       private String idNum;
        private int age;
 
        public int getAge() {
@@ -59,20 +71,12 @@ Navtabs are better for SEO since you avoid duplicate content and drive users to 
           return name;
        }
 
-       public String getIdNum() {
-          return idNum;
-       }
-
        public void setAge( int newAge) {
           age = newAge;
        }
 
        public void setName(String newName) {
           name = newName;
-       }
-
-       public void setIdNum( String newId) {
-          idNum = newId;
        }
       }
       </code>
@@ -82,15 +86,11 @@ Navtabs are better for SEO since you avoid duplicate content and drive users to 
   <div role="tabpanel" class="tab-pane" id="python">
     <pre>
       <code>
-      class Car:
-        def __init__(self):
-            self.__updateSoftware()
+      class Person:
+        def __init__(self, name, age):
+          self.name = name
+          self.age = age
 
-        def drive(self):
-            print 'driving'
-
-        def __updateSoftware(self):
-            print 'updating software'
       </code>
     </pre>
   </div>

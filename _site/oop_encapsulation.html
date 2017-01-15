@@ -3,7 +3,7 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Encapsulation">
+<meta name="description" content="Grouping data (variables) and code acting on the data (methods/functions) as a single object or unit.">
 <meta name="keywords" content="oop,  navigation tabs, hide sections, tabbers, interface tabs">
 <title>Encapsulation | Da Fundamentals</title>
 <link rel="stylesheet" href="css/syntax.css">
@@ -35,7 +35,7 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000feed.xml">
+<link rel="alternate" type="application/rss+xml" title="" href="http://benstew.comfeed.xml">
 
     <script>
         $(document).ready(function() {
@@ -192,21 +192,28 @@
             
             
             
-            <li><a href="about.html">About the author</a></li>
+            <li><a href="getting_started_contribute.html">How to Contribute</a></li>
             
             
             
             
             
             
-            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="getting_started_about.html">About the author</a></li>
             
             
             
             
             
             
-            <li><a href="support.html">Support</a></li>
+            <li><a href="getting_started_faq.html">FAQs</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="getting_started_support.html">Support</a></li>
             
             
             
@@ -221,14 +228,14 @@
             
             
             
-            <li class="active"><a href="encapsulation.html">Encapsulation</a></li>
+            <li class="active"><a href="oop_encapsulation.html">Encapsulation</a></li>
             
             
             
             
             
             
-            <li><a href="data_abstraction.html">Data Abstraction</a></li>
+            <li><a href="oop_abstraction.html">Abstraction</a></li>
             
             
             
@@ -260,18 +267,30 @@
 <div class="post-content">
 
    
-    <div class="summary">Encapsulation</div>
+    <div class="summary">Grouping data (variables) and code acting on the data (methods/functions) as a single object or unit.</div>
    
 
     
     
+      <a target="_blank" href="https://github.com/DaFundamentals/dafundamentals.github.io/tree/docreview/pages/documentation/oop_encapsulation.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+    
 
-  <h2 id="common-uses">Common uses</h2>
-<p>Navtabs are particularly useful for scenarios where you want to show a variety of options, such as code samples for Java, .NET, or PHP, on the same page.</p>
+  <p><strong>Encapsulation</strong> makes it possible to separate an objects implementation from its behavior to restrict access to its internal data. This restriction allows certain details of an objects behavior to be hidden. It allows us to create a “black box” and protects an objects internal state from corruption by its clients.</p>
 
-<p>While you could resort to single-source publishing to provide different outputs for each unique programming language or role, you could also use navtabs to allow users to select the content you want.</p>
+<p>Rather then having a bike with all its pieces scattered, we are grouping everything together in one class.</p>
 
-<p>Navtabs are better for SEO since you avoid duplicate content and drive users to the same page.</p>
+<p><strong>Advantages:</strong></p>
+
+<ul>
+  <li>Makes it easy to model real-world entities</li>
+  <li>Controls the way data is accessed or modified</li>
+  <li>Easier maintainability</li>
+  <li>Flexible</li>
+  <li>Reusable</li>
+  <li>Reduces coupling of modules and increase cohesion inside a module because all piece of one thing are encapsulated in one place.</li>
+</ul>
+
+<hr />
 
 <h2 id="code-examples">Code Examples</h2>
 
@@ -285,15 +304,20 @@
 
     <pre>
     <code>
-      class Document
-        attr_accessor :name
+      class Person
+        attr_reader :name, :age
 
-        def initialize(name)
+        def initialize(name, age)
           @name = name
+          @age = age
         end
 
         def set_name(name)
           @name = name
+        end
+
+        def set_age(age)
+          @age = age
         end
       end
     </code>
@@ -303,9 +327,8 @@
   <div role="tabpanel" class="tab-pane" id="java">
     <pre>
       <code>
-      public class EncapTest {
+      public class Person {
        private String name;
-       private String idNum;
        private int age;
 
        public int getAge() {
@@ -316,20 +339,12 @@
           return name;
        }
 
-       public String getIdNum() {
-          return idNum;
-       }
-
        public void setAge( int newAge) {
           age = newAge;
        }
 
        public void setName(String newName) {
           name = newName;
-       }
-
-       public void setIdNum( String newId) {
-          idNum = newId;
        }
       }
       </code>
@@ -339,15 +354,11 @@
   <div role="tabpanel" class="tab-pane" id="python">
     <pre>
       <code>
-      class Car:
-        def __init__(self):
-            self.__updateSoftware()
+      class Person:
+        def __init__(self, name, age):
+          self.name = name
+          self.age = age
 
-        def drive(self):
-            print 'driving'
-
-        def __updateSoftware(self):
-            print 'updating software'
       </code>
     </pre>
   </div>
